@@ -1,0 +1,5 @@
+main.go contains the cli logic like init, add, commit etc, its the exe that interacts with the .mygit dir
+.mygit folder mimics gits .git directory, acting as the "database"
+.mygit/objective stores all content as hashed objects
+.mygit/refs holds references to commits, typically branch pointers
+HEAD is a single file with no ext that indicates the current "checkout" state
